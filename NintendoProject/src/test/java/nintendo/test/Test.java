@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
@@ -8,6 +9,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Boutique Microarnaque = new Boutique ("Microarnaque","3 Rue de Paris - Lyon" );
+		
 		Console Switch = new Console("Switch");
 		Console PS5 = new Console("PS5");
 		
