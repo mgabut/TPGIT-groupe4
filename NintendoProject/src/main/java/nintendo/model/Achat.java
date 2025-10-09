@@ -1,13 +1,14 @@
 package nintendo.model;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Achat {
 	private Jeu jeu;
-	private Date date;
+	private LocalDate date;
 	private double prix;
 	
-	public Achat(Jeu jeu, Date date, double prix) {
+	public Achat(Jeu jeu, LocalDate date, double prix) {
 		this.jeu = jeu;
 		this.date = date;
 		this.prix = prix;
@@ -21,11 +22,11 @@ public class Achat {
 		this.jeu = jeu;
 	}
 
-	public Date getDate() {
-		return date;
+	public LocalDate getDate() {
+		return this.date;
 	}
 
-	public void setDate(Date date) {
+	public void setDate(LocalDate date) {
 		this.date = date;
 	}
 

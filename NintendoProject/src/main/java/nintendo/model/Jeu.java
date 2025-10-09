@@ -1,8 +1,5 @@
 package nintendo.model;
 
-import nintendo.model.Boutique;
-import nintendo.model.Console;
-
 public class Jeu {
 
 	private String titre;

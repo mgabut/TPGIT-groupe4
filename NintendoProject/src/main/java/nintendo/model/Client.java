@@ -1,15 +1,17 @@
 package nintendo.model;
 
-
+import java.util.List;
 
 public class Client {
 	private String nom;
 	private String prenom;
+	private List<Achat> achats;
 	
 	
-	public Client(String nom, String prenom) {
+	public Client(String nom, String prenom, List<Achat> achats) {
 		this.nom = nom;
 		this.prenom = prenom;
+		this.achats=achats;
 	}
 	
 	
