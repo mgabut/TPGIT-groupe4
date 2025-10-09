@@ -1,9 +1,8 @@
 package nintendo.model;
 
-<<<<<<< Updated upstream
+
 import java.time.LocalDate;
-=======
->>>>>>> Stashed changes
+
 public abstract class Console {
 
 	private String nom;
@@ -47,11 +46,9 @@ public abstract class Console {
 
 	@Override
 	public String toString() {
-<<<<<<< Updated upstream
+
 		return "Console " + this.getClass().getSimpleName() + " [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
-=======
-		return "Console " + this.getClass().getSimpleName() + " [nom=" + nom + "]";
->>>>>>> Stashed changes
+
 	}
 	
 	

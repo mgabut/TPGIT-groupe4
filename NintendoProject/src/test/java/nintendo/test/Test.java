@@ -12,11 +12,9 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Console Switch = new Salon("Switch");
-<<<<<<< Updated upstream
-		Console PS5 = new Salon("PS5");
-=======
+
 		Console PS5 = new Hybride("PS5");
->>>>>>> Stashed changes
+
 		
 		Jeu SmashBros = new Jeu("Smash Bros", Switch);
 		Jeu MarioKart = new Jeu("Mario Kart", Switch);
