@@ -1,8 +1,7 @@
 package nintendo.model;
 
 import java.time.LocalDate;
-
-public class Console {
+public abstract class Console {
 
 	private String nom;
 	private double prix;
@@ -45,7 +44,7 @@ public class Console {
 
 	@Override
 	public String toString() {
-		return "Console [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
+		return "Console " + this.getClass().getSimpleName() + " [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
 	}
 	
 	

@@ -3,16 +3,16 @@ package nintendo.test;
 import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
+import nintendo.model.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Boutique Microarnaque = new Boutique ("Microarnaque","3 Rue de Paris - Lyon" );
-		
-		Console Switch = new Console("Switch");
-		Console PS5 = new Console("PS5");
+		Console Switch = new Salon("Switch");
+		Console PS5 = new Salon("PS5");
 		
 		Jeu SmashBros = new Jeu("Smash Bros", Switch);
 		Jeu MarioKart = new Jeu("Mario Kart", Switch);
