@@ -11,7 +11,9 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Boutique MicroArnaque = new Boutique("MicroArnaque","3 rue de Paris - Lyon");
 		Console Switch = new Salon("Switch");
+		
 
 		Console PS5 = new Hybride("PS5");
 
